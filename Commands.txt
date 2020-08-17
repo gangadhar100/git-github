@@ -34,6 +34,16 @@ Step 4:- git commit -m "making changes in firstbranch"
 I have commited the data to branch firstbranch
 Step 5:- ls
 It will show the list of files in firstbranch
+Step 6:- Switch it to Masterbrach where all files of first branch will not be displayed
+git checkout master
+Step 7:- ls
+it will show only master branch files
+
+Merging
+-------
+Masterbranch>
+git merge firstbranch
+Note:- It will merge all the files of firstbranch with masterbranch
 
 
 
