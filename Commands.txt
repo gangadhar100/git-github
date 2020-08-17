@@ -12,5 +12,28 @@ It will show ed1.txt as new file
 Step 6:- git commit -m "adding first commit"
 It will commited the files to localrepository.
 If we want to add multiple files
+Step 5:- git add .
+Total 3 files will be added
+Step 6:-git commit -a -m "adding 3 files together"
+adding 3files together
+3files changed, 3 insertions(+), 1 deletion(-)
+Step 7:- git log
+it will display the all the commited data and date and times it will display
+
+Parallel development
+---------------------
+Branching
+$(master)
+Step 1:-git branch firstbranch
+It will create a new branch(firstbranch)
+it will copy all the files from master branch
+Step 2:- git checkout firstbranch( we moved to first branch)
+If we create a new file edu4.txt
+Step 3:- git add edu4.txt
+Step 4:- git commit -m "making changes in firstbranch"
+I have commited the data to branch firstbranch
+Step 5:- ls
+It will show the list of files in firstbranch
+
 
 
