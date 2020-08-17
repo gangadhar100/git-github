@@ -1,0 +1,16 @@
+Step 1:-git init
+It will initializes the git repository
+Step 2:-git remote add origin <link>
+it will linked to remote repository
+Step 3:- git pull -v origin master
+it will pull the all the files from master
+Step 4:- git status
+Will see the changes in done the files
+It will show ed1.txt as untracked file
+Step 5:- git add ed1.txt  
+It will show ed1.txt as new file
+Step 6:- git commit -m "adding first commit"
+It will commited the files to localrepository.
+If we want to add multiple files
+
+
